@@ -1,0 +1,40 @@
+# Temporary files
+*~
+#pdf files
+*.pdf
+
+#fitxers de versions
+*_v*.*
+js_btt/*_v*.*
+
+# una representació de les rutes
+rutesgps/a*
+rutesgps/b*
+rutesgps/d*
+rutesgps/e*
+rutesgps/f*
+rutesgps/g*
+rutesgps/h*
+rutesgps/i*
+rutesgps/j*
+rutesgps/k*
+rutesgps/l*
+rutesgps/m*
+rutesgps/n*
+rutesgps/o*
+rutesgps/p*
+rutesgps/q*
+rutesgps/r*
+rutesgps/s*
+rutesgps/t*
+rutesgps/u*
+rutesgps/w*
+rutesgps/x*
+rutesgps/y*
+rutesgps/z*
+
+#Ignore folders
+dist
+node_modules
+
+
