@@ -20,8 +20,24 @@
         height: 600px;
         width: 100%;
       }
+
+      .ol-tooltip {
+        position: relative;
+        top: 5px;
+        left: 5px;
+        z-index:1;
+        visibility: hidden;
+        background-color: #eeeeee;
+        -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+        filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+        padding: 8px;
+        border-radius: 10px;
+        border: 1px solid #cccccc;
+        min-width: 10px;
+      }
+
     </style>
-    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+
 
   </head>
   <body>
@@ -91,14 +107,17 @@
       <main>
         <div class="bd-intro ps-lg-8">
           <div class="d-md-inline-flex flex-md-row-reverse align-items-center justify-content-between">
-            <a class="btn btn-sm btn-bd-light mb-2 mb-md-0" href="https://github.com/twbs/bootstrap/blob/main/site/content/docs/5.0/components/accordion.md" title="View and edit this file on GitHub" target="_blank" rel="noopener">Relieve</a>&nbsp;
-            <a class="btn btn-sm btn-bd-light mb-2 mb-md-0" href="https://github.com/twbs/bootstrap/blob/main/site/content/docs/5.0/components/accordion.md" title="View and edit this file on GitHub" target="_blank" rel="noopener">Stats</a>&nbsp;
-            <a class="btn btn-sm btn-bd-light mb-2 mb-md-0" href="https://github.com/twbs/bootstrap/blob/main/site/content/docs/5.0/components/accordion.md" title="View and edit this file on GitHub" target="_blank" rel="noopener">Perfil</a>&nbsp;&nbsp;&nbsp;
+            <a class="btn btn-sm btn-bd-light mb-2 mb-md-0" href="" id="perfil" title="Perfil">Perfil</a>&nbsp;
+            <a class="btn btn-sm btn-bd-light mb-2 mb-md-0" id="relieve" href="http://portfolio.joanillo.org" title="Relieve" target="_blank" rel="noopener">Relieve</a>&nbsp;
+            <a class="btn btn-sm btn-bd-light mb-2 mb-md-0" href="" id="download" title="Download" target="_blank" rel="noopener">Download</a>&nbsp;&nbsp;&nbsp;
             <h1 class="bd-title" id="titol_ruta">Ruta Bagà-Coll de Pal</h1>
           </div>
-          <p class="bd-lead">Build vertically collapsing accordions in combination with our Collapse JavaScript plugin.</p>
-          <div id="map" class="map"></div>
-
+          <p class="bd-lead" id="desc_ruta"></p>
+          <div id="map" class="map">
+            <div id="tooltip" class="ol-tooltip">
+              <div id="tooltip-content"></div>
+            </div>
+          </div>
         </div>
 
       </main>

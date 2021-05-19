@@ -47,7 +47,7 @@ for x in range(0,len(arr)):
 						if (zona not in lst_zones): # zona nova
 							lst_zones.append(zona)
 						lst_dicts.append([])
-						dict_ruta = { "ruta": name, "fitxer": arr[x] }
+						dict_ruta = { "ruta": name, "fitxer": arr[x], "desc": desc }
 				break
 		ind = lst_zones.index(zona)
 		lst_dicts[ind].append(dict_ruta)
@@ -72,7 +72,7 @@ for zona in lst_zones:
 	for dicc in lst_dicts[compt]:
 		if (compt2 > 0):
 			f.write(",")	
-		f.write("\n\t\t\t{\"ruta\":\"" + dicc['ruta'] + "\", \"fitxer\":\"" + dicc['fitxer'] + "\"}")
+		f.write("\n\t\t\t{\"ruta\":\"" + dicc['ruta'] + "\", \"fitxer\":\"" + dicc['fitxer'] + "\", \"desc\":\"" + dicc['desc'] + "\"}")
 		compt2 = compt2 + 1
 	f.write("\n\t\t]")
 	f.write("}")

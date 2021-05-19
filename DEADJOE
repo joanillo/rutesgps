@@ -1,0 +1,95 @@
+
+*** These modified files were found in JOE when it aborted on Mon May 17 21:09:53 2021
+*** JOE was aborted by UNIX signal 15
+
+*** File '.gitignore'
+# Temporary files
+*~
+#pdf files
+*.pdf
+
+#fitxers de versions
+*_v*.*
+js_btt/*_v*.*
+
+# una representació de les rutes
+rutesgps/a*
+rutesgps/b*
+rutesgps/d*
+rutesgps/e*
+rutesgps/f*
+rutesgps/g*
+rutesgps/h*
+rutesgps/i*
+rutesgps/j*
+rutesgps/k*
+rutesgps/l*
+rutesgps/m*
+rutesgps/n*
+rutesgps/o*
+rutesgps/p*
+rutesgps/q*
+rutesgps/r*
+rutesgps/s*
+rutesgps/t*
+rutesgps/u*
+rutesgps/v*
+rutesgps/w*
+rutesgps/x*
+rutesgps/y*
+rutesgps/z*
+rutesgps/A*
+rutesgps/B*
+rutesgps/D*
+rutesgps/E*
+rutesgps/F*
+rutesgps/G*
+rutesgps/H*
+rutesgps/I*
+rutesgps/J*
+rutesgps/K*
+rutesgps/L*
+rutesgps/M*
+rutesgps/N*
+rutesgps/O*
+rutesgps/P*
+rutesgps/Q*
+rutesgps/R*
+rutesgps/S*
+rutesgps/T*
+rutesgps/U*
+rutesgps/V*
+rutesgps/W*
+rutesgps/X*
+rutesgps/Y*
+rutesgps/Z*
+#Ignore folders
+dist
+node_modules
+
+
+
+*** File '(Unnamed)'
+infile
+uic
+x
+proudly
+
+*** File '(Unnamed)'
+index.html
+package.json
+package.json
+package.json
+package.json
+package.json
+README.md
+.gitignore
+.gitignore
+.gitignore
+.gitignore
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc
