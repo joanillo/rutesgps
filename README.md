@@ -1,5 +1,7 @@
 Rutes GPS 
 --------------
+Upload your GPX files.
+
 Autor: Joan Quintana (joanillo)
 <pre>
 $ git clone https://github.com/joanillo/rutesgps.git
@@ -21,12 +23,12 @@ You must to copy rutesgps/ files into dist/folder.
 Don't confuse the name of the app (rutesgps) with the name where de GPX routes are stored (rutesgps/)
 
 to parse correctly your gpx files, it is important to store inside the GPX file an statistical information with this format:
-<pre>
-	<metadata>
-		<name>Bagà-Brocà-Collada Grossa-L'Estret-Riutort</name>
-		<desc>BTT*Bagà*baga-broca-collada_grossa-estret-riutort.gpx*2020-06-21*26.8 Km*02:22:47*03:10:57*1179 m*1029 m*747m*1551m*vNOPnVDzrYq</desc>
-	</metadata>
-</pre>
+<blockquote>
+<metadata>
+<name>Bagà-Brocà-Collada Grossa-L'Estret-Riutort</name>
+<desc>BTT*Bagà*baga-broca-collada_grossa-estret-riutort.gpx*2020-06-21*26.8 Km*02:22:47*03:10:57*1179 m*1029 m*747m*1551m*vNOPnVDzrYq</desc>
+</metadata>
+</blockquote>
 where:
 <ul>
 <li>name is the title of the route</li>
