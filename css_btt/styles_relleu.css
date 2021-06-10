@@ -1,0 +1,66 @@
+      .map {
+        position: relative;
+        height: 600px;
+        width: 100%;
+      }
+
+      .ol-tooltip {
+        position: relative;
+        top: 5px;
+        left: 5px;
+        z-index:1;
+        visibility: hidden;
+        background-color: #eeeeee;
+        -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+        filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+        padding: 8px;
+        border-radius: 10px;
+        border: 1px solid #cccccc;
+        min-width: 10px;
+      }
+
+      .cl_relleu {
+        position: absolute;
+        z-index: 2;
+        visibility: visible;
+        top: 380px;
+        left: 10px;
+        width: 350px;
+        height: 200px;
+        padding: 10px;
+        margin: 10px;
+        background-color: #eeeeee;
+        border-radius: 10px;
+        border: 1px solid #cccccc;
+        min-width: 10px;
+        opacity: 0.6;
+      }
+
+      /* AXES */
+      /* ticks */
+      .axis line{
+      stroke: #;
+      stroke-width: 1;
+      shape-rendering: crispEdges;
+      }
+
+      /* axis contour */
+      .axis path {
+      stroke: #706f6f;
+      stroke-width: 1;
+      shape-rendering: crispEdges;
+      }
+
+      /* axis text */
+      .axis text {
+      fill: #2b2929;
+      font-family: Georgia;
+      font-size: 120%;
+      }
+
+      /* LINE CHART */
+      path.line-0 {
+        fill: none;
+        stroke: #555555;
+        stroke-width: 1;
+      }
